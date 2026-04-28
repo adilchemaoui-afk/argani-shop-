@@ -1,0 +1,25 @@
+{
+  "name": "ARGANI — L'Or Liquide du Maroc",
+  "short_name": "ARGANI",
+  "description": "Huile d'argan premium du Maroc, pressée à froid et certifiée ECOCERT.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FAF9F6",
+  "theme_color": "#FAF9F6",
+  "orientation": "portrait",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
