@@ -760,7 +760,47 @@ function App() {
       <PourquoiArgani />
       <CTA />
       <Footer />
-    </div>
+{/* FORMULAIRE CONTACT */}
+<section className="py-16 px-4 max-w-xl mx-auto">
+  <h2 className="text-3xl font-bold text-center mb-8">Contactez-nous</h2>
+  
+  <form 
+    action="https://formspree.io/f/https://formspree.io/f/mjglbopr" 
+    method="POST"
+    className="flex flex-col gap-4"
+  >
+    <input 
+      type="text" 
+      name="nom" 
+      placeholder="Votre nom" 
+      required
+      className="p-3 border border-gray-300 rounded-lg focus:outline-none focus:border-black"
+    />
+    
+    <input 
+      type="email" 
+      name="email" 
+      placeholder="Votre email" 
+      required
+      className="p-3 border border-gray-300 rounded-lg focus:outline-none focus:border-black"
+    />
+    
+    <textarea 
+      name="message" 
+      placeholder="Votre message" 
+      rows={5}
+      required
+      className="p-3 border border-gray-300 rounded-lg focus:outline-none focus:border-black resize-none"
+    />
+    
+    <button 
+      type="submit"
+      className="p-3 bg-black text-white rounded-lg font-semibold hover:bg-gray-800 transition"
+    >
+      Envoyer
+    </button>
+  </form>
+</section>    </div>
   );
 }
 
