@@ -765,7 +765,7 @@ function App() {
   <h2 className="text-3xl font-bold text-center mb-8">Contactez-nous</h2>
   
   <form 
-    action="https://formspree.io/f/https://formspree.io/f/mjglbopr" 
+    action="https://formspree.io/f/https://formspree.io/f/xrejzaeg 
     method="POST"
     className="flex flex-col gap-4"
   >
